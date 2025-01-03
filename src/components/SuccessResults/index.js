@@ -1,7 +1,6 @@
 import React from 'react'
 import {Redirect} from 'react-router-dom'
 import Cookies from 'js-cookie'
-import Header from '../HeaderRouter'
 import './index.css'
 
 const ResultPage = props => {
@@ -27,7 +26,6 @@ const ResultPage = props => {
   }
   return (
     <>
-      <Header />
       <div className="result-container">
         <div className="result-card">
           <img
